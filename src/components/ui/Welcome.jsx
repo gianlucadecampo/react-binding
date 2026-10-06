@@ -31,7 +31,7 @@ export default function Welcome() {
                     <button key={item.ID} onClick={() => handleLang(index)} className="border-2 border-black bg-white p-3">{item.lang}</button>
                 ))}
             </div>
-            <p className="ml-5 text-blue-900 font-semibold">{lang}</p>
+            <p className="ml-5 text-blue-900 font-semibold border-3 border-white p-2">{lang}</p>
         </div>
     )
 }

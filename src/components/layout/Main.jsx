@@ -2,6 +2,7 @@ import Button from '../ui/Button'
 import ButtonClass from '../ui/ButtonClass'
 import AlignButton from '../ui/AlignButton'
 import Welcome from '../ui/Welcome'
+import Todo from '../ui/Todo'
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <ButtonClass />
       <AlignButton />
       <Welcome />
+      <Todo />
     </section>
   )
 }

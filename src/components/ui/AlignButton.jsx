@@ -12,7 +12,7 @@ export default function AlignButton() {
                 <button onClick={() => handleAlign('text-center')} className="border-2 border-white p-3">CENTER</button>
                 <button onClick={() => handleAlign('text-right')} className="border-2 border-white p-3">RIGHT</button>
             </div>
-            <p className={`border-2 mx-25 py-2 ${alignment}`}>Aligned paragraph text</p>
+            <p className={`border-2 mx-25 p-2 ${alignment}`}>Aligned paragraph text</p>
         </div >
     )
 }   
