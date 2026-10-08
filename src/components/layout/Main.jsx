@@ -10,6 +10,7 @@ import AddTextWords from '../ui/AddTextWords'
 import CheckForEnable from '../ui/CheckForEnable'
 import ToggleStyle from '../ui/ToggleStyle'
 import TextDimension from '../ui/TextDimension'
+import ConvertPrice from '../ui/ConvertPrice'
 
 export default function Main() {
   return (
@@ -27,6 +28,7 @@ export default function Main() {
       <CheckForEnable />
       <ToggleStyle />
       <TextDimension />
+      <ConvertPrice />
     </section>
   )
 }
