@@ -5,6 +5,7 @@ import Welcome from '../ui/Welcome'
 import Todo from '../ui/Todo'
 import CharCounter from '../ui/CharCounter'
 import NameFilter from '../ui/NameFilter'
+import ChangeTitle from '../ui/ChangeTitle'
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
       <Todo />
       <CharCounter />
       <NameFilter />
+      <ChangeTitle />
     </section>
   )
 }
