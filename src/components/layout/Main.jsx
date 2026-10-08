@@ -8,6 +8,7 @@ import NameFilter from '../ui/NameFilter'
 import ChangeTitle from '../ui/ChangeTitle'
 import AddTextWords from '../ui/AddTextWords'
 import CheckForEnable from '../ui/CheckForEnable'
+import ToggleStyle from '../ui/ToggleStyle'
 
 export default function Main() {
   return (
@@ -23,6 +24,7 @@ export default function Main() {
       <ChangeTitle />
       <AddTextWords />
       <CheckForEnable />
+      <ToggleStyle />
     </section>
   )
 }
