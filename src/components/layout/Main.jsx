@@ -4,6 +4,7 @@ import AlignButton from '../ui/AlignButton'
 import Welcome from '../ui/Welcome'
 import Todo from '../ui/Todo'
 import CharCounter from '../ui/CharCounter'
+import NameFilter from '../ui/NameFilter'
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
       <Welcome />
       <Todo />
       <CharCounter />
+      <NameFilter />
     </section>
   )
 }

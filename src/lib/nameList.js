@@ -1,0 +1,1 @@
+export const firstNames = ['martin', 'ivory', 'laurent', 'anne', 'jamal', 'rosemary', 'andrew', 'clark']
