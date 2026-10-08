@@ -6,6 +6,7 @@ import Todo from '../ui/Todo'
 import CharCounter from '../ui/CharCounter'
 import NameFilter from '../ui/NameFilter'
 import ChangeTitle from '../ui/ChangeTitle'
+import AddTextWords from '../ui/AddTextWords'
 
 export default function Main() {
   return (
@@ -19,6 +20,7 @@ export default function Main() {
       <CharCounter />
       <NameFilter />
       <ChangeTitle />
+      <AddTextWords />
     </section>
   )
 }
