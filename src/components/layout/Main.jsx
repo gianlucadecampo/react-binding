@@ -11,6 +11,7 @@ import CheckForEnable from '../ui/CheckForEnable'
 import ToggleStyle from '../ui/ToggleStyle'
 import TextDimension from '../ui/TextDimension'
 import ConvertPrice from '../ui/ConvertPrice'
+import RemainingChars from '../ui/RemainingChars'
 
 export default function Main() {
   return (
@@ -29,6 +30,7 @@ export default function Main() {
       <ToggleStyle />
       <TextDimension />
       <ConvertPrice />
+      <RemainingChars />
     </section>
   )
 }
