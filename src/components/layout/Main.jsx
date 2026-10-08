@@ -3,6 +3,7 @@ import ButtonClass from '../ui/ButtonClass'
 import AlignButton from '../ui/AlignButton'
 import Welcome from '../ui/Welcome'
 import Todo from '../ui/Todo'
+import CharCounter from '../ui/CharCounter'
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <AlignButton />
       <Welcome />
       <Todo />
+      <CharCounter />
     </section>
   )
 }
