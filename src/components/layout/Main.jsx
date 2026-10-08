@@ -12,6 +12,7 @@ import ToggleStyle from '../ui/ToggleStyle'
 import TextDimension from '../ui/TextDimension'
 import ConvertPrice from '../ui/ConvertPrice'
 import RemainingChars from '../ui/RemainingChars'
+import TextAdvice from '../ui/TextAdvice'
 
 export default function Main() {
   return (
@@ -31,6 +32,7 @@ export default function Main() {
       <TextDimension />
       <ConvertPrice />
       <RemainingChars />
+      <TextAdvice />
     </section>
   )
 }

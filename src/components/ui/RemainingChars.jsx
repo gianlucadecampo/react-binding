@@ -6,7 +6,7 @@ export default function RemainingChars() {
     return (
         <div className="flex justify-center place-items-center gap-5 mt-8">
             <label htmlFor="chars" className="p-2">Insert text:</label>
-            <textarea name="" disabled={count < 1} id="chars" className="border-2" onChange={e => { setCount(maxChars - e.target.value.length) }}></textarea>
+            <textarea name="par" disabled={count < 1} id="chars" className="border-2" onChange={e => { setCount(maxChars - e.target.value.length) }}></textarea>
             <span>Remaining chars: {count}</span>
         </div>
     )
